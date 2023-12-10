@@ -4,6 +4,9 @@ public class Employee{
 	private String name= null;
 	private String lastName = null;
 	private int age ;
+
+	public Employee(){
+	}
 	
 	public Employee(String name, String lastName, int age){
 		this.name = name;
